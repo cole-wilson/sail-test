@@ -6,12 +6,15 @@ short_description = ""
 description = ""
 url = "https://github.com/cole-wilson/sail-test"
 keywords = ""
+latest_build = "1.0.0"
+license = "MIT"
 
 [resources]
 icon = ""
 data_files = []
 modules = []
 file = "main.py"
+no_import = []
 
 [build]
 type = "1"
@@ -21,8 +24,10 @@ windows = true
 installer = true
 actions = true
 bundle_id = "com.colewilson.sail_test"
+actions_built_latest = false
 
 [git]
+github = "cole-wilson/sail-test"
 
 [build.commands]
 ctest = ""
