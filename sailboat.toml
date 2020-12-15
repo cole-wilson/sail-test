@@ -1,0 +1,28 @@
+name = "Test_Project"
+short_name = "sail-test"
+author = "Cole Wilson"
+email = ""
+short_description = ""
+description = ""
+url = "https://github.com/cole-wilson/sail-test"
+keywords = ""
+
+[resources]
+icon = ""
+data_files = []
+modules = []
+file = "main.py"
+
+[build]
+type = "1"
+homebrew = true
+mac = true
+windows = true
+installer = true
+actions = true
+bundle_id = "com.colewilson.sail_test"
+
+[git]
+
+[build.commands]
+ctest = ""
